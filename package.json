@@ -11,6 +11,11 @@
     "start": "node ./src/app.js",
     "test": "jest --colors --verbose --coverage"
   },
+  "allowScripts": {
+    "@parcel/watcher@2.6.0": true,
+    "unrs-resolver@1.12.2": true,
+    "yorkie@2.0.0": true
+  },
   "author": "Gyandeep Singh <gyandeeps@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/eslint/eslint-github-bot",
